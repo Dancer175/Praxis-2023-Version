@@ -1,0 +1,18 @@
+<div class="navbar">
+  <div class="header">
+  <%= link_to root_path do %>
+    <%= image_tag "logo-drawing.png" %>
+  <% end %>
+    <%= link_to root_path do %>
+      <h1 id="nav-title">BDSM Stammtisch Aargau</h1>
+    <% end %>
+  </div>
+  <label for="toggle"><span id="burger"></span></label>
+  <input type="checkbox" id="toggle" />
+  <ul id="main-menu">
+    <li id="main-menu-box"></li>
+    <li id="first-link"><%= active_link_to "Info", info_path, active: :exclusive %></li>
+    <li id="second-link"><%= active_link_to "Treffpunkt", treffpunkt_path %></li>
+    <li id="third-link"><%= active_link_to "Kontakt", kontakt_path %></li>
+  </ul>
+</div>
