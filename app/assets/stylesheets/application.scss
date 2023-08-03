@@ -13,9 +13,9 @@ body {
   background-color: black;
   height: 100vh;
   width: 100vw;
-  background-image: asset-url('bg3.png');
-  background-position-x: left;
-  background-position-y: bottom;
+  background-image: asset-url('marc.png');
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
@@ -27,10 +27,38 @@ body {
   left: 0;
 }
 
+@keyframes TransparentToVisible {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
 .page-text {
   color: white;
-  font-family: $header-font;
-  font-size: 60px;
+  font-family: $text-font;
+  font-weight: normal;
+  font-size: 32px;
   position: absolute;
   width: 39vw;
   height: 60vh;
@@ -40,11 +68,20 @@ body {
   text-align: end;
   overflow-y: auto;
   padding-right: 20px;
+  animation: 0.5s ease-out 0s 1 slideInFromBottom;
+  text-shadow: -1px 0 $blue, 0 1px $blue, 1px 0 $blue, 0 -1px $blue;
+  h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
   .page-text {
-    font-size: 48px;
+    font-size: 28px;
+    h2 {
+      font-size: 32px;
+    }
   }
 }
 
@@ -58,14 +95,17 @@ body {
     left: 10vw;
     text-align: start;
     padding: 32px;
-    font-size: 40px;
+    animation: 1s ease-out 0s 1 TransparentToVisible;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .page-text {
     padding: 20px;
-    font-size: 36px;
+    font-size: 22px;
+    h2 {
+      font-size: 24px;
+    }
   }
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
