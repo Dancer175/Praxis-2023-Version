@@ -1,18 +1,21 @@
 <div class="navbar">
   <div class="header">
   <%= link_to root_path do %>
-    <%= image_tag "logo-adapted.png" %>
+    <%= image_tag "logo.png" %>
   <% end %>
     <%= link_to root_path do %>
-      <h1 id="nav-title">BDSM Stammtisch Aargau</h1>
+      <h1 id="nav-title">Praxis fürs MENSCH sein</h1>
     <% end %>
   </div>
   <label for="toggle"><span id="burger"></span></label>
   <input type="checkbox" id="toggle" />
   <ul id="main-menu">
     <li id="main-menu-box"></li>
-    <li id="first-link"><%= active_link_to "Info", info_path, active: :exclusive %></li>
-    <li id="second-link"><%= active_link_to "Treffpunkt", treffpunkt_path %></li>
-    <li id="third-link"><%= active_link_to "Kontakt", kontakt_path %></li>
+    <li id="first-link"><%= active_link_to "Therapie", therapies_path, active: :exclusive %></li>
+    <li id="second-link"><%= active_link_to "Preise", prices_path %></li>
+    <li id="third-link"><%= active_link_to "Kontakt", contact_path %></li>
+    <li id="fourth-link"><%= active_link_to "Ich bin", whoami_path %></li>
+    <li id="fifth-link"><%= active_link_to "Philosophie", philosophy_path %></li>
+    <li id="sixth-link"><%= active_link_to "Projekte", projects_path %></li>
   </ul>
 </div>

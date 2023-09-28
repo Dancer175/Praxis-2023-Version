@@ -10,12 +10,16 @@
 }
 
 body {
-  background-color: black;
+  background: hsla(90, 53%, 22%, 1);
+  background: linear-gradient(90deg, hsla(90, 53%, 22%, 1) 0%, hsla(208, 100%, 23%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(90, 53%, 22%, 1) 0%, hsla(208, 100%, 23%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(90, 53%, 22%, 1) 0%, hsla(208, 100%, 23%, 1) 100%);
   height: 100vh;
   width: 100vw;
-  background-image: asset-url('marc.png');
-  background-position-x: center;
+  //background-image: asset-url('daniela.png');
+  background-position-x: left;
   background-position-y: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -55,14 +59,14 @@ body {
 
 
 .page-text {
-  color: white;
+  color: #FDFEE7;
   font-family: $text-font;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 24px;
   position: absolute;
-  width: 39vw;
+  width: 42vw;
   height: 60vh;
-  left: 59vw;
+  left: 56vw;
   bottom: 5vh;
   z-index: 2;
   text-align: end;
@@ -72,17 +76,41 @@ body {
   text-shadow: -1px 0 $blue, 0 1px $blue, 1px 0 $blue, 0 -1px $blue;
   h2 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  p, ul {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px 0px 0px 20px;
+    padding: 4px;
+  }
+  ul {
+    padding-left: 24px;
+  }
+}
+
+#page-text-large {
+  p {
+    font-size: 32px;
   }
 }
 
 @media only screen and (max-width: 1400px) {
   .page-text {
-    font-size: 28px;
+    font-size: 24px;
     h2 {
-      font-size: 32px;
+      font-size: 28px;
     }
   }
+  #page-text-large {
+  p {
+    font-size: 28px;
+  }
+}
 }
 
 @media only screen and (max-width: 1100px) {
@@ -95,18 +123,40 @@ body {
     left: 10vw;
     text-align: start;
     padding: 32px;
+    z-index: 3;
     animation: 1s ease-out 0s 1 TransparentToVisible;
+    display: none;
+    p {
+      border-radius: 4px;
+    }
   }
+  #page-text-large {
+  p {
+    font-size: 28px;
+  }
+}
 }
 
 @media only screen and (max-width: 600px) {
   .page-text {
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
     h2 {
-      font-size: 24px;
+      font-size: 22px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+    ul {
+      padding-left: 4px;
     }
   }
+  #page-text-large {
+  p {
+    font-size: 24px;
+  }
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;

@@ -1,5 +1,5 @@
 {
-  "name": "bdsm-stammtisch-aargau",
+  "name": "praxis-2023-version",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

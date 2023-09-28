@@ -4,21 +4,27 @@
   justify-content: space-between;
   overflow: hidden;
   img {
-    height: 240px;
-    width: 240px;
+    height: 160px;
+    width: 160px;
+    padding-right: 10px;
   }
   label {
     display: none;
   }
 }
 
+#first-link {
+  border-bottom-left-radius: 4px;
+}
+
 #nav-title {
-  font-family: $header-font;
-  font-size: 120px;
+  font-family: 'Boogaloo', cursive;
+  font-size: 64px;
   font-weight: bold;
-  color: white;
+  color: #DCE132;
   display: block;
-  text-shadow: -2px 0 $blue, 0 2px $blue, 2px 0 $blue, 0 -2px $blue;
+  padding-right: 20px;
+  text-shadow: -4px 0 rgba(0, 0, 0, 0.2), 0 4px rgba(0, 0, 0, 0.4), 4px 0 rgba(0, 0, 0, 0.1), 0 -4px rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -37,21 +43,22 @@
   }
   li {
     list-style: none;
-    height: 100px;
+    height: 80px;
   }
   a {
     display: block;
     width: 100%;
     height: 100%;
-    font-size: 60px;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    color: white;
+    font-size: 48px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #DCE132;
     text-decoration: none;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     padding: 20px;
     font-family: $header-font;
+    font-weight: bold;
     &:hover {
       font-weight: bold;
     }
@@ -77,86 +84,152 @@
   }
   100% {
     transform: translateX(0);
-    transform: rotate(20deg);
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes slideInFromLeftAndRotate {
+  0% {
+    transform: translateX(-100%);
+    box-shadow: none;
+  }
+
+  95% {
+    box-shadow: none;
+  }
+  100% {
+    transform: translateX(100%);
+    transform: rotate(10deg);
   }
 }
 
 .nav-folders-wrapper {
-  width: 60vw;
+  width: 64vw;
   height: 200vh;
   position: absolute;
   bottom: -60vh;
-  left: 50vw;
-  transform: rotate(20deg);
+  left: 46vw;
+  transform: rotate(10deg);
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 1;
   border-radius: 4px;
   animation: 0.5s ease-out 0s 1 slideInFromRightAndRotate;
-  box-shadow: -15px 0px 17px -7px rgba(0,0,0,0.75);
+  box-shadow: -4px -10px 10px 6px rgba(0,0,0,0.2);
+}
+
+.nav-folders-image {
+  width: 48vw;
+  height: 80vh;
+  max-height: 44vw;
+  position: absolute;
+  bottom: -8vh;
+  left: -8vw;
+  transform: rotate(10deg);
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  animation: 0.5s ease-out 0s 1 slideInFromLeftAndRotate;
+  box-shadow: 4px 10px 10px 6px rgba(0,0,0,0.2);
+  overflow: hidden;
+  border-top-right-radius: 12px;
+}
+
+.image-container {
+  transform: rotate(-10deg);
+  position: absolute;
+  height: auto;
+  width: 110%;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
 }
 
 #home-wrapper {
   box-shadow: none;
 }
 
-#info-wrapper {
-  background-color: $beige-transparent;
+
+#first-link {
+  background-color: #758234;
 }
 
-#first-link a, #second-link {
-  background-color: $beige;
+#therapies-wrapper {
+  background-color: rgba(117, 130, 52, 0.7);
 }
 
-#meetingpoint-wrapper {
-  background-color: $green-transparent;
+
+#second-link {
+  background-color: #606F34;
 }
 
-#second-link a, #third-link {
-  background-color: $green;
+#prices-wrapper {
+  background-color: rgba(96, 111, 52, 0.7);
+}
+
+
+#third-link {
+  background-color: #4B5C34;
 }
 
 #contact-wrapper {
-  background-color: $blue-transparent;
+  background-color: rgba(75, 92, 52, 0.7);
 }
 
-#third-link a {
-  background-color: $blue;
+#fourth-link {
+  background-color: #364934;
+  min-width: 100px;
 }
 
+#whoami-wrapper {
+  background-color: rgba(54, 73, 52, 0.7);
+}
+
+#fifth-link {
+  background-color: #223635;
+}
+
+#philosophy-wrapper {
+  background-color: rgba(34, 54, 53, 0.7);
+}
+
+#sixth-link {
+  background-color: #0D2335;
+}
+
+#projects-wrapper {
+  background-color: rgba(13, 35, 53, 0.7);
+}
 
 @media only screen and (max-width: 1600px) {
   #nav-title {
-    font-size: 96px;
+    font-size: 48px;
+  }
+  .navbar {
+    img {
+      width: 120px;
+      height: 120px;
+    }
   }
   #main-menu {
     a {
-      font-size: 60px;
+      font-size: 40px;
     }
   }
 }
 
 @media only screen and (max-width: 1400px) {
   #nav-title {
-    font-size: 80px;
+    font-size: 44px;
   }
   #main-menu {
     a {
-    font-size: 40px;
+    font-size: 32px;
     }
     li {
       height: 80px;
-    }
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  #nav-title {
-    font-size: 72px;
-  }
-  #main-menu {
-    a {
-    font-size: 40px;
     }
   }
 }
@@ -191,7 +264,7 @@
       width: 40px;
       height: 6px;
       display: block;
-      background-color: white;
+      background-color: #DCE132;
       border-radius: 2px;
       border-color: $blue;
     }
@@ -199,7 +272,7 @@
     #burger:after {
       height: 6px;
       display: block;
-      background-color: white;
+      background-color: #DCE132;
       position: absolute;
       content: '';
       transition:all ease 0.2s;
@@ -219,19 +292,19 @@
       &:before {
         transform: rotate(50deg);
         top: 0px;
-        background-color: white;
+        background-color: #DCE132;
       }
       &:after {
         transform: rotate(-50deg);
         top: 0px;
-        background-color: white;
+        background-color: #DCE132;
       }
 
     }
   }
 
   #nav-title {
-    font-size: 60px;
+    font-size: 48px;
   }
 
 .nav-folders-wrapper {
@@ -239,12 +312,78 @@
   height: 72vh;
   position: absolute;
   top: 20vh;
-  left: 10vw;
   transform: rotate(0deg);
   overflow-x: hidden;
   overflow-y: auto;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
   animation: 1s ease-out 0s 1 TransparentToVisible;
+  z-index: 2;
+  display: none;
+}
+
+.nav-folders-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  margin: auto;
+  height: calc(100vh - 120px);
+  max-height: none;
+  transform: rotate(0deg);
+  border-radius: 0;
+  z-index: 1;
+  animation: none;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .nav-folders-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container {
+    transform: rotate(0deg);
+    height: 100vh;
+    width: auto;
+    position: relative;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .image-container {
+    transform: rotate(0deg);
+    height: auto;
+    width: 100%;
+  }
+}
+
+#home-wrapper {
+  box-shadow: none;
+}
+
+#therapies-wrapper {
+  background-color: rgba(117, 130, 52, 0.9);
+}
+
+#prices-wrapper {
+  background-color: rgba(96, 111, 52, 0.9);
+}
+
+#contact-wrapper {
+  background-color: rgba(75, 92, 52, 0.9);
+}
+
+#whoami-wrapper {
+  background-color: rgba(54, 73, 52, 0.9);
+}
+
+#philosophy-wrapper {
+  background-color: rgba(34, 54, 53, 0.9);
+}
+
+#projects-wrapper {
+  background-color: rgba(13, 35, 53, 0.9);
 }
 
   #main-menu {
@@ -255,7 +394,7 @@
     padding: 60px 20px;
     align-items: flex-end;
     background-color: black;
-    background-image: asset-url('marc.png');
+    background-image: asset-url('praxis.png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,7 +412,7 @@
     }
     a {
       box-shadow: none;
-      font-size: 64px;
+      font-size: 60px;
       font-weight: bold;
       justify-content: flex-end;
       padding: 16px;
@@ -282,23 +421,45 @@
     #first-link {
       position: absolute;
       right: -100vw;
-      top: 48vh;
+      top: 24vh;
       transition-duration: 0.4s;
       transition-delay: 0.5s;
+      border-bottom-left-radius: 0px;
     }
     #second-link {
       position: absolute;
       right: -100vw;
-      top: 63vh;
+      top: 36vh;
       transition-duration: 0.4s;
       transition-delay: 0.6s;
     }
     #third-link {
       position: absolute;
       right: -100vw;
-      top: 78vh;
+      top: 48vh;
       transition-duration: 0.4s;
       transition-delay: 0.7s;
+    }
+    #fourth-link {
+      position: absolute;
+      right: -100vw;
+      top: 60vh;
+      transition-duration: 0.4s;
+      transition-delay: 0.8s;
+    }
+    #fifth-link {
+      position: absolute;
+      right: -100vw;
+      top: 72vh;
+      transition-duration: 0.4s;
+      transition-delay: 0.9s;
+    }
+    #sixth-link {
+      position: absolute;
+      right: -100vw;
+      top: 84vh;
+      transition-duration: 0.4s;
+      transition-delay: 1s;
     }
 
     #main-menu-box {
@@ -321,7 +482,10 @@
     }
     #first-link,
     #second-link,
-    #third-link {
+    #third-link,
+    #fourth-link,
+    #fifth-link,
+    #sixth-link {
       right: 6vw;
     }
   }
@@ -330,6 +494,7 @@
 @media only screen and (max-width: 640px) {
   #nav-title {
     font-size: 40px;
+    text-shadow: -2px 0 rgba(0, 0, 0, 0.2), 0 2px rgba(0, 0, 0, 0.4), 2px 0 rgba(0, 0, 0, 0.1), 0 -2px rgba(0, 0, 0, 0.2);
   }
   #toggle:checked + #main-menu {
     #main-menu-box {
@@ -360,7 +525,7 @@
       right: -40vw;
     }
     a {
-      font-size: 56px;
+      font-size: 42px;
     }
   }
 }
