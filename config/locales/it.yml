@@ -1,0 +1,109 @@
+it:
+  metadescription: "Studio di massaggio medico, Ruelle du Haut 11, 2502 Biel/Bienne, Daniela Zimmermann, massaggiatrice medicale APF, massaggi medici, lavoro corporeo hawaiano, appuntamenti via telefono / SMS / Whats App, +41 79 473 33 50"
+  metakeywords: "medico, massaggio, hawaiano, lomi, lomi, terapia, bodywork, kinesio, taping, emr, asca, visana, sne, approvato "
+
+  # landing page
+
+  title: "Studio per essere UMANO"
+  address: "Daniela Zimmermann, Massaggiatrice Medicale APF, Ruelle du Haut 11, 2502 Biel/Bienne, 079 473 33 50"
+  enter: "Entrare"
+  route: "Itinerario"
+  tel: "Chiamare"
+  therapies: "Terapie"
+  prices: "Prezzi"
+  contact: "Contatto"
+  whoami: "Chi sono"
+  philosophy: "Filosofia"
+  projects: "Progetti"
+
+  # home
+
+  poem: "Certo che un essere umano è, solo chi crede nell'essere umano e poi si permette di esserlo._
+        Certo che a chi è umano l'umanità mancherà, quando il mondo dimentica, che la nostra vera natura è di essere umani._
+        Certo pero anche, che l'essere umano vincerà se solo ci ricordiamo che la forza che ci unisce è l'amore, perché solo esso può portarci alla libertà."
+
+# therapies
+
+  therapies: "Terapie"
+  medmassage : "Massaggio medicale"
+  hawaiimassage: "Massaggio hawaiano"
+  classic: "Massaggio classico"
+  mld: "Linfodrenaggio"
+  bgm: "Massaggio connettivale"
+  reflex: "Riflessoterapia al piede"
+  hawaiifullbody: "Massaggio completo del corpo hawaiano"
+  pregnant: "Massaggio in gravidanza hawaiano"
+  more: "Altre forme di terapia"
+  kinesio: "Kinesiotaping secondo Dr. Kenzo Kase"
+  thai: "Massaggio thai yoga"
+  mytreatment: "Il mio approccio al trattamento"
+  mytherapydescription: "Il massaggio medicale allevia le tensioni, favorisce la circolazione sanguigna, stimola il metabolismo e ha un effetto calmante sull’organismo._
+                        La bodywork hawaiana è un’arte curativa che ha migliaia di anni e si tramanda di maestro in allievo di generazione in generazione. Si tratta di un mix di tecniche efficaci per sciogliere le tensioni nel corpo e l’amorevole intenzione di riportare il corpo, l’anima e lo spirito in armonia._
+                        Entrambe le forme di terapia mi hanno dato strumenti preziosi. Nei miei trattamenti combino i due concetti per poter applicare le tecniche più efficaci per ogni singolo cliente."
+
+  # prices
+
+  price-title: "Trattamento di un'ora: 100 CHF"
+  price-content: "Il pagamento sarà effettuato direttamente dopo il trattamento contro una ricevuta per la cassa malattia._
+                  Accetto pagamenti in forma di contanti, carta EC, Twint e Bitcoin._
+                  Sono riconosciuta da EMR, ASCA, Visana e SNE._
+                  Prima del tuo primo trattamento, informati su quali prestazioni sono coperte a quali condizioni dall'assicurazione complementare della tua cassa malattia e in quale proporzione."
+
+
+  # contact
+
+  appointments: "Appuntamenti tramite chiamata, SMS o Whats App"
+
+  # whoami
+
+  myway: "Strada della mia vita"
+  curriculum: "Nata e cresciuta a Meggen (LU)_
+              Liceo con maturità a Lucerna_
+              Anni di apprendistato e di viaggi, tirocini diversi, viaggi studi_
+              Tirocinio nella drogheria e nel centro naturopatico di Claudia Haus a Mellingen_
+              ZefaM Scuola professionale di massaggi medicali della svizzera centrale_
+              Lavoro come massaggiatrice medicale da Jürg Schneeberger a Langnau i. E_
+              Scuola di massaggio hawaiano da Jeana Naluai a Maui (HI)_
+              Pellegrinaggio sulla Via Francigena verso Roma_
+              Apertura del mio studio di massaggi a Biel/Bienne"
+  myteachers: "I miei maestri"
+  Claudia: "Claudia Haus"
+  ClaudiaText: "Sotto l’istruzione di Claudia potevo aiutarla nel suo studio di naturopatia e tra l’altro fare dei massaggi delle zone riflessive al piede. Lei mi ha offerto un’opportunità immensa e mi ha reso possibile scoprire la passione per il mondo della terapia. Nella drogheria ho ricevuto un’impressione del mondo delle medicine naturali e ho potuto approfittare delle ampie conoscenze di Claudia. In più lei mi dato tanto tempo per fare bricolage di creazioni sempre nuove per la nostra vetrina della drogheria: con forbice, colla e pastello. Le nostre decorazioni erano sempre uniche e molto umane. Questo mi ha ispirato tanto."
+  Juerg: "Jürg Schneeberger"
+  JuergText: "Jürg come Capo e mentore mi ha lasciato la liberta di svilupparmi come terapeuta. Mi ha trasmesso la capacità della gente dell’Emmental di essere con i piedi per terra, un senso per distinguere le cose importanti dalle cose meno importanti, la morale di vivere quello che si predica, la tranquillità, la serenità e la fiducia nella vita. In più mi ha reso cosciente dell’importanza di un approccio interattivo come anche del coinvolgimento della statica del corpo nell’ispezione di una problematica. Per me, Jürg e stato un esempio importante, come terapeuta e come essere umano."
+  Jeana: "Jeana Naluai"
+  JeanaText: "Jeana, combinando le sue esperienze come fisioterapista, e la sua conoscenza della medicina e spiritualità tradizionale delle Hawaii, mi ha trasmesso dei concetti di terapia nuovi molto interessanti. Tra l’altro i concetti di Aloha (amore, intenzione amorevole), Mana (forza, energia), Pono (vivere e agire secondo i propri principi morali), Ho ’oponopono (rimettere in coerenza le circostanze della vita secondo i propri principi morali, perdonare, chiarire), Kuleana (prendersi la responsabilità per il proprio compito nella vita). La considerazione e il trattamento olistico dell’organismo con tecniche delicate e vaste per prendere influenza sui tendini, sulle fasce, sul sistema nervoso e il sistema linfatico hanno soddisfatto sia il mio desiderio di avere spiegazioni razionali e, allo stesso tempo, il mio bisogno di un approccio intuitivo. Alle Hawaii, Jeana mi ha aperto un nuovo mondo."
+  Vision: "La mia visione"
+  VisionText: "Mi auguro che il mondo diventi più colorato.  Sia all’ esterno, che dentro di noi."
+
+  # philosophy
+
+  philosophytitle: "Filosofia"
+  philosophycontent: "Siamo tutti esseri UMANI. Non c’entra la nostra apparenza, da dove veniamo, in che cosa crediamo, che facciamo e cosa rappresentiamo nella nostra vita._
+                      Per me essere UMANO significa ballare con il vento e cantare per la luna. Nuotare in un mare di emozioni, avere momenti di perfezione e di lucidità, perdersi per riscoprirsi. Essere UMANO significa piangere, ridere, amare. Pensare indipendentemente, analizzare criticamente ed esprimere la sua propria verità. Essere UMANO significa permettersi di essere se stesso. Che significa essere UMANO per te?_
+                      Per essere UMANO bisogna avere coraggio. Perché significa essere colorato, in un mare di grigio. Essere diverso da tutti gli altri, essere un originale invece che una copia._
+                      Guarigione per me significa riconoscere questa originalità dentro noi stessi e dentro il prossimo. Accettare e vivere l’essere UMANO con tutti i suoi aspetti. E condividere insieme i nostri pensieri, le nostre emozioni e storie, per crescere insieme._
+                      Mi auguro che sempre più UMANI trovino il coraggio di ammettere colore con rispetto e amore, per il nostro proprio bene, e per il bene della nostra famiglia, l’UMANITA."
+
+  # projects
+
+  projectstitle: "Progetti"
+  presents: "Studio per essere UMANO presenta:"
+  projectssubtitle: "Lasciateci girare i dadi!"
+  projectsdescription: "Un gioco nel senso di un esperimento sociale per promuovere l’amore e la pace tra gli esseri umani:"
+  projectstext: "«Questa è la mia parte nel puzzle della conoscenza del mondo. È un manifesto per l’amore e la pace e un invito a vivere storie e condividerle con gli altri esseri umani per crescere insieme. Per il bene di tutti noi e per il bene della nostra famiglia, l’umanità.»"
+
+  Unternehmen: "Azienda"
+
+  Geschäftsführerin: "Manager"
+
+  Adressword: "Indirizzo"
+
+
+  Emailtitle: "Email"
+  Emailcontent: "info@praxisfürsmenschsein.ch"
+
+  ZSRtitle: "Numero ZSR"
+  ZSRcontent: "Y657062"
+
+

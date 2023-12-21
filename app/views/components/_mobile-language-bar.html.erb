@@ -1,0 +1,15 @@
+<div class="mobile-language-bar">
+  <label for="mobile-language-toggle"><div id="mobile-language-burger">
+    <div id="open-mobile-language-bar">
+    <%= I18n.locale.upcase%>
+  </div>
+  </div></label>
+  <input type="checkbox" id="mobile-language-toggle" />
+  <div id="mobile-language-choice">
+    <% ["en", "de", "fr", "it"].each do |x| %>
+      <% if x != I18n.locale.to_s %>
+        <li class="-mobile-language" id= <% x %>><%= link_to x.upcase, controller: controller_name, action: action_name, locale: x  %></li>
+      <% end %>
+    <% end %>
+  </div>
+</div>

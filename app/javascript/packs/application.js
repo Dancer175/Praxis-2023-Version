@@ -9,8 +9,11 @@ ActiveStorage.start()
 
 // navbar
 import { initNavbar } from '../components/init_navbar';
+// mapbox
+import { initMapbox } from '../components/init_mapbox';
 
 
 document.addEventListener('turbolinks:load', () => {
   initNavbar();
+  initMapbox();
 })

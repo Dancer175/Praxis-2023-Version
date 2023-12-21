@@ -69,11 +69,11 @@ body {
   left: 56vw;
   bottom: 5vh;
   z-index: 2;
-  text-align: end;
+  text-align: start;
   overflow-y: auto;
   padding-right: 20px;
   animation: 0.5s ease-out 0s 1 slideInFromBottom;
-  text-shadow: -1px 0 $blue, 0 1px $blue, 1px 0 $blue, 0 -1px $blue;
+  text-shadow: -0.5px 0 rgba(0, 0, 0, 0.5), 0 0.5px rgba(0, 0, 0, 0.5), 0.5px 0 rgba(0, 0, 0, 0.5), 0 -0.5px rgba(0, 0, 0, 0.5);
   h2 {
     font-weight: bold;
     font-size: 28px;
@@ -117,15 +117,14 @@ body {
   .page-text {
     height: auto;
     width: 80vw;
-    max-height: 72vh;
+    max-height: 68vh;
     position: absolute;
-    top: 20vh;
+    top: 140px;
     left: 10vw;
     text-align: start;
     padding: 32px;
     z-index: 3;
     animation: 1s ease-out 0s 1 TransparentToVisible;
-    display: none;
     p {
       border-radius: 4px;
     }
@@ -133,8 +132,13 @@ body {
   #page-text-large {
   p {
     font-size: 28px;
+    }
   }
-}
+  .home-span{
+    background-color: rgba(4, 65, 112, 0.8);
+    line-height: 1.6;
+    font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,0 +1,108 @@
+de:
+  metadescription: "Medizinische Massagepraxis, Obergässli 11, 2502 Biel/Bienne, Daniela Zimmermann, Med. Masseurin EFA, Medizinische Massagen, Hawaiianische Körperarbeit, Termine über Anruf / SMS/ Whats App, +41 79 473 33 50"
+  metakeywords: "medizinisch, Massage, hawaiianisch, Lomi, Lomi, Therapie, Körperarbeit, Kinesio, Taping, emr, asca, visana, sne, anerkannt "
+
+  # landing page
+
+  title: "Praxis fürs MENSCH sein"
+  address: "Daniela Zimmermann, Medizinische Masseurin EFA, Obergässli 11, 2502 Biel/Bienne, 079 473 33 50"
+  enter: "Eintreten"
+  route: "Route"
+  tel: "Anrufen"
+  therapies: "Therapien"
+  prices: "Preise"
+  contact: "Kontakt"
+  whoami: "Über mich"
+  philosophy: "Philosophie"
+  projects: "Projekte"
+
+  # home
+
+  poem: Gewiss, dass Mensch nur ist, wer an das Mensch sein glaubt und es sich dann erlaubt._
+        Gewiss, dass wer Mensch ist, die Menschheit dann vermisst, wenn die Welt vergisst, dass unsere wahre Natur das Mensch sein ist._
+        Gewiss doch auch, das Mensch sein wird gewinnen, wenn wir uns nur besinnen, dass die Kraft, die uns vereint die Liebe ist, denn nur sie kann uns die Freiheit bringen.
+
+  # therapies
+
+  therapies: "Therapien"
+  medmassage : "Medizinische Massage"
+  hawaiimassage: "Hawaiianische Massage"
+  classic: "Klassische Massage"
+  mld: "Manuelle Lymphdrainage"
+  bgm: "Bindegewebsmassage"
+  reflex: "Fussreflexzonenmassage"
+  hawaiifullbody: "Hawaiianische Ganzkörpermassage"
+  pregnant: "Hawaiianische Schwangerschaftsmassage"
+  more: "Weitere Therapieformen"
+  kinesio: "Kinesiotaping nach Dr. Kenzo Kase"
+  thai: "Thai Yoga Massage"
+  mytreatment: "Mein Behandlungsansatz"
+  mytherapydescription: "Die Medizinische Massage löst gezielt Verspannungen, fördert die Durchblutung, regt den Stoffwechsel an und wirkt beruhigend auf den Organismus._
+                        Die Hawaiianische Körperarbeit ist eine jahrtausendealte Heilkunst, die über die Generationen von Meister an Schüler weitergegeben wird. Sie ist eine Mischung aus effektiven Techniken um Verspannungszustände im Körper zu lösen, und liebevoller Absicht, um Körper, Seele und Geist wieder in Einklang zu bringen._
+                        Beide Therapieformen haben mir wertvolle Werkzeuge mit auf den Weg gegeben. In meinen Behandlungen verbinde ich die beiden Konzepte, um für jeden Kunden individuell die für sein Beschwerdebild effektivsten Techniken anwenden zu können."
+
+  # prices
+
+  price-title: "Einstündige Behandlung: 100 CHF"
+  price-content: "Die Bezahlung erfolgt direkt nach der Behandlung gegen Krankenkassen-Quittung._
+                  Ich akzeptiere Bezahlung in Form von Bargeld, EC Karte, Twint und Bitcoin._
+                  Ich bin EMR, ASCA, Visana und SNE anerkannt._
+                  Bitte informiere dich vor der ersten Behandlung darüber, welche Leistungen unter welchen Bedingungen von der Zusatzversicherung deiner Krankenkasse in welchem Umfang übernommen werden."
+
+  # contact
+
+  appointments: "Termine über Anruf, SMS oder Whats App"
+
+  # about me
+
+  myway: "Mein Lebensweg"
+  curriculum:   Geboren und aufgewachsen in Meggen (LU)_
+                Gymnasium mit Maturitätsabschluss in Luzern_
+                Lern- und Wanderjahre, diverse Praktikas, Sprachaufenthalte_
+                Praktikum Drogerie und Naturheilpraxis von Claudia Haus in Mellingen (AG)_
+                ZefaM Zentralschweizer Fachschule für Medizinische Masseure_
+                Arbeit als Med. Masseurin bei Jürg Schneeberger in Langnau i. E_
+                Ausbildung Hawaiianische Massage bei Jeana Naluai in Maui (HI)_
+                Pilgerreise zu Fuss auf der Via Francigena nach Rom_
+                Eröffnung meiner Praxis in Biel/Bienne
+  myteachers: "Meine Lehrmeister"
+  Claudia: "Claudia Haus"
+  ClaudiaText: "Unter der Instruktion von Claudia durfte ich in ihrer Naturheilpraxis mithelfen und unter anderem Fussreflexzonen Massagen durchführen. Sie hat mir eine unglaubliche Chance geboten und mir ermöglicht, die Freude am Therapieren zu entdecken. In der Drogerie erhielt ich einen Einblick in die Welt der Naturheilmittel und konnte von Claudias umfangreichen Wissen profitieren. Dazu liess sie mich stundenlang an immer neuen Schaufensterideen für die Drogerie basteln. Mit Scheere, Leim und Farbstiften. Unsere Dekorationen waren einzigartig und sehr menschlich, was mich inspiriert hat."
+  Juerg: "Jürg Schneeberger"
+  JuergText: "Jürg hat mir als Chef und Mentor den Freiraum gelassen, mich als Therapeutin zu entwickeln. Er vermittelte mir die Bodenständigkeit der Emmentaler, einen Sinn dafür, das Wichtige vom Unwichtigen zu trennen, die Arbeitsmoral, das zu leben was man predigt, Gemütlichkeit, Ruhe und das Vertrauen ins Leben. Er hat mir zudem die Wichtigkeit von vernetztem Denken richtig bewusstgemacht sowie den Einbezug der Körperstatik in der Betrachtung einer Beschwerde nahegebracht. Jürg ist mir als Therapeut und als Mensch ein wichtiges Vorbild."
+  Jeana: "Jeana Naluai"
+  JeanaText: "Jeana hat mir durch die Kombinierung ihrer Erfahrung als Physiotherapeutin und des ihr übertragenen Wissens der traditionell Hawaiianischen Heilkunst und Spiritualität interessante neue Therapiekonzepte vermittelt. Unter anderem das Konzept von Aloha (Liebe, liebevolle Absicht), Mana (Kraft, Energie), Pono (Leben und Handeln nach den eigenen moralischen Prinzipien), Ho’oponopono (Wieder in Einklang bringen von Lebensumständen und den eigenen moralischen Prinzipien, Vergebung, Bereinigung), Kuleana (Übernahme der Verantwortung für die eigene Lebensaufgabe). Die ganzheitliche Betrachtung und Behandlung eines Organismus mit schonenden Techniken zur grossflächigen Einwirkung auf Muskelsehnenansätze, Faszien, das Nervensystem und das Lymphsystem wurden meinem Verlangen nach rationalen Erklärungen sowie meinem Bedürfnis nach einer intuitiven Herangehensweise gerecht. Jeana hat mir in Hawaii eine neue Welt eröffnet."
+  Vision: "Meine Vision"
+  VisionText: "Ich wünsche mir, dass die Welt wieder farbiger wird. Im Aussen sowie in unseren Herzen."
+
+  # philosophy
+
+  philosophytitle: "Philosophie"
+  philosophycontent: "Wir alle sind MENSCHEN. Egal woher wir kommen, wie wir aussehen oder an was wir glauben, was wir in unserem Leben tun und darstellen._
+                      FÜR MICH bedeutet MENSCH sein mit dem Wind zu tanzen und für den Mond zu singen. In einem Meer von Emotionen zu schwimmen, Momente der Vollkommenheit und Klarheit zu erleben, sich zu verlieren um sich neu zu entdecken. MENSCH sein bedeutet zu weinen, zu lachen, zu lieben. Selbständig zu denken, zu hinterfragen und seine persönliche Wahrheit auszusprechen. MENSCH sein bedeutet sich zu erlauben sich selbst zu sein. Was bedeutet MENSCH sein FÜR DICH?_
+                      Es braucht Mut, MENSCH zu sein. Denn MENSCH sein bedeutet farbig zu sein, in einem Meer von Grau. Anders zu sein als alle anderen, einzigartig, ein Original statt einer Kopie._
+                      Heilung bedeutet für mich, diese Originalität in uns selbst und in unseren Mitmenschen zu erkennen. Das menschlich sein mit all seinen Facetten anzunehmen und zu leben. Und unsere Gedanken, Gefühle und Geschichten miteinander zu teilen, um aneinander zu wachsen._
+                      Ich wünsche mir, dass immer mehr MENSCHEN den Mut haben Farbe zu bekennen, um in Liebe und Respekt für das MENSCH sein einzustehen, zu unserem eigenen Wohl und zum Wohle unserer Familie, der MENSCHHEIT."
+
+  # projects
+
+  projectstitle: "Projekte"
+  presents: "Praxis fürs MENSCH sein präsentiert:"
+  projectssubtitle: "Lasst uns die Würfel drehen!"
+  projectsdescription: "Ein Spiel im Sinne eines Sozial-Experimentes zur Förderung von Liebe und Frieden unter Mitmenschen:"
+  projectstext: "«Dies ist mein Anteil am Weltwissenspuzzle. Es ist ein Manifest für Liebe und Frieden und eine Aufforderung, Geschichten zu erleben und sie mit unseren Mitmenschen zu teilen, um gemeinsam zu wachsen. Zum Wohl von uns allen und zum Wohl unserer Familie, der Menschheit.»"
+
+  # impressum
+
+  Unternehmen: "Unternehmen"
+
+  Geschäftsführerin: "Geschäftsführerin"
+
+  Adressword: "Adressse"
+
+
+  Emailtitle: "Email"
+  Emailcontent: "info@praxisfürsmenschsein.ch"
+
+  ZSRtitle: "ZSR-Nummer"
+  ZSRcontent: "Y657062"

@@ -1,0 +1,122 @@
+.mobile-language-bar,
+.language-bar {
+  position: absolute;
+  list-style: none;
+  font-weight: normal;
+  font-family: 'Boogaloo', cursive;
+  color: #003D74;
+  border-color: none;
+  text-shadow:  -0.1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  z-index: 200;
+  display: block;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.language-bar {
+  top: 100px;
+  right: 20px;
+  display: block;
+}
+
+.mobile-language-bar {
+  display: none;
+  top: 20px;
+  right: calc(100vw - 120px);
+}
+
+.mobile-language-bar a,
+.language-bar a {
+  text-decoration: none;
+  color: white !important;
+  font-size: 28px !important;
+  font-family: 'Boogaloo', cursive !important;
+  display: flex;
+  width: 60px !important;
+  height: 60px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  &:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  color: #003D74;
+  }
+}
+
+#mobile-language-choice,
+#open-mobile-language-bar,
+#language-choice,
+#open-language-bar {
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(220, 225, 50, 1);
+  width: 60px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#mobile-language-toggle,
+#language-toggle {
+  display: none;
+}
+
+#language-toggle:checked + #language-choice {
+  display: flex;
+}
+
+#mobile-language-toggle:checked + #mobile-language-choice {
+  display: flex;
+}
+
+#open-mobile-language-bar,
+#open-language-bar {
+  display: flex;
+}
+
+#mobile-language-choice,
+#language-choice {
+  display: none;
+}
+
+#language-choice {
+  position: absolute;
+  top: 60px;
+  height: 180px;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #003D74;
+}
+
+#mobile-language-choice {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  height: 180px;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #003D74;
+}
+
+#open-mobile-language-bar,
+#open-language-bar {
+  height: 60px;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .language-bar {
+    display: none;
+  }
+
+  .mobile-language-bar {
+    display: block;
+  }
+}
