@@ -5,10 +5,9 @@ it:
   # landing page
 
   title: "Studio per essere UMANO"
-  address: "Daniela Zimmermann, Massaggiatrice Medicale APF, Ruelle du Haut 11, 2502 Biel/Bienne, 079 473 33 50"
-  enter: "Entrare"
-  route: "Itinerario"
-  tel: "Chiamare"
+  address: "Massaggiatrice Medicale APF_
+           Ruelle du Haut 11_
+           2502 Biel/Bienne"
   therapies: "Terapie"
   prices: "Prezzi"
   contact: "Contatto"
@@ -24,19 +23,12 @@ it:
 
 # therapies
 
-  therapies: "Terapie"
-  medmassage : "Massaggio medicale"
-  hawaiimassage: "Massaggio hawaiano"
-  classic: "Massaggio classico"
   mld: "Linfodrenaggio"
-  bgm: "Massaggio connettivale"
-  reflex: "Riflessoterapia al piede"
-  hawaiifullbody: "Massaggio completo del corpo hawaiano"
-  pregnant: "Massaggio in gravidanza hawaiano"
+  pregnant: "Massaggio in gravidanza"
   more: "Altre forme di terapia"
   kinesio: "Kinesiotaping secondo Dr. Kenzo Kase"
   thai: "Massaggio thai yoga"
-  mytreatment: "Il mio approccio al trattamento"
+  mytherapytitle: "Massaggio medicale e Bodywork hawaiano"
   mytherapydescription: "Il massaggio medicale allevia le tensioni, favorisce la circolazione sanguigna, stimola il metabolismo e ha un effetto calmante sull’organismo._
                         La bodywork hawaiana è un’arte curativa che ha migliaia di anni e si tramanda di maestro in allievo di generazione in generazione. Si tratta di un mix di tecniche efficaci per sciogliere le tensioni nel corpo e l’amorevole intenzione di riportare il corpo, l’anima e lo spirito in armonia._
                         Entrambe le forme di terapia mi hanno dato strumenti preziosi. Nei miei trattamenti combino i due concetti per poter applicare le tecniche più efficaci per ogni singolo cliente."
@@ -45,7 +37,7 @@ it:
 
   price-title: "Trattamento di un'ora: 100 CHF"
   price-content: "Il pagamento sarà effettuato direttamente dopo il trattamento contro una ricevuta per la cassa malattia._
-                  Accetto pagamenti in forma di contanti, carta EC, Twint e Bitcoin._
+                  Accetto pagamenti in forma di contanti, Twint e Bitcoin._
                   Sono riconosciuta da EMR, ASCA, Visana e SNE._
                   Prima del tuo primo trattamento, informati su quali prestazioni sono coperte a quali condizioni dall'assicurazione complementare della tua cassa malattia e in quale proporzione."
 
@@ -67,12 +59,15 @@ it:
               Pellegrinaggio sulla Via Francigena verso Roma_
               Apertura del mio studio di massaggi a Biel/Bienne"
   myteachers: "I miei maestri"
-  Claudia: "Claudia Haus"
-  ClaudiaText: "Sotto l’istruzione di Claudia potevo aiutarla nel suo studio di naturopatia e tra l’altro fare dei massaggi delle zone riflessive al piede. Lei mi ha offerto un’opportunità immensa e mi ha reso possibile scoprire la passione per il mondo della terapia. Nella drogheria ho ricevuto un’impressione del mondo delle medicine naturali e ho potuto approfittare delle ampie conoscenze di Claudia. In più lei mi dato tanto tempo per fare bricolage di creazioni sempre nuove per la nostra vetrina della drogheria: con forbice, colla e pastello. Le nostre decorazioni erano sempre uniche e molto umane. Questo mi ha ispirato tanto."
-  Juerg: "Jürg Schneeberger"
-  JuergText: "Jürg come Capo e mentore mi ha lasciato la liberta di svilupparmi come terapeuta. Mi ha trasmesso la capacità della gente dell’Emmental di essere con i piedi per terra, un senso per distinguere le cose importanti dalle cose meno importanti, la morale di vivere quello che si predica, la tranquillità, la serenità e la fiducia nella vita. In più mi ha reso cosciente dell’importanza di un approccio interattivo come anche del coinvolgimento della statica del corpo nell’ispezione di una problematica. Per me, Jürg e stato un esempio importante, come terapeuta e come essere umano."
-  Jeana: "Jeana Naluai"
-  JeanaText: "Jeana, combinando le sue esperienze come fisioterapista, e la sua conoscenza della medicina e spiritualità tradizionale delle Hawaii, mi ha trasmesso dei concetti di terapia nuovi molto interessanti. Tra l’altro i concetti di Aloha (amore, intenzione amorevole), Mana (forza, energia), Pono (vivere e agire secondo i propri principi morali), Ho ’oponopono (rimettere in coerenza le circostanze della vita secondo i propri principi morali, perdonare, chiarire), Kuleana (prendersi la responsabilità per il proprio compito nella vita). La considerazione e il trattamento olistico dell’organismo con tecniche delicate e vaste per prendere influenza sui tendini, sulle fasce, sul sistema nervoso e il sistema linfatico hanno soddisfatto sia il mio desiderio di avere spiegazioni razionali e, allo stesso tempo, il mio bisogno di un approccio intuitivo. Alle Hawaii, Jeana mi ha aperto un nuovo mondo."
+  ClaudiaText: "Sotto l’istruzione di Claudia potevo aiutarla nel suo studio di naturopatia e tra l’altro fare dei massaggi delle zone riflessive al piede. Lei mi ha offerto un’opportunità immensa e mi ha reso possibile scoprire la passione per il mondo della terapia._
+                Nella drogheria ho ricevuto un’impressione del mondo delle medicine naturali e ho potuto approfittare delle ampie conoscenze di Claudia._
+                In più lei mi dato tanto tempo per fare bricolage di creazioni sempre nuove per la nostra vetrina della drogheria: con forbice, colla e pastello. Le nostre decorazioni erano sempre uniche e molto umane. Questo mi ha ispirato tanto."
+  JuergText: "Jürg come Capo e mentore mi ha lasciato la liberta di svilupparmi come terapeuta._
+              Mi ha trasmesso la capacità della gente dell’Emmental di essere con i piedi per terra, un senso per distinguere le cose importanti dalle cose meno importanti, la morale di vivere quello che si predica, la tranquillità, la serenità e la fiducia nella vita._
+              In più mi ha reso cosciente dell’importanza di un approccio interattivo come anche del coinvolgimento della statica del corpo nell’ispezione di una problematica. Per me, Jürg e stato un esempio importante, come terapeuta e come essere umano."
+  JeanaText: "Jeana, combinando le sue esperienze come fisioterapista, e la sua conoscenza della medicina e spiritualità tradizionale delle Hawaii, mi ha trasmesso dei concetti di terapia nuovi molto interessanti._
+              Tra l’altro i concetti di Aloha (amore, intenzione amorevole), Mana (forza, energia), Pono (vivere e agire secondo i propri principi morali), Ho ’oponopono (rimettere in coerenza le circostanze della vita secondo i propri principi morali, perdonare, chiarire), Kuleana (prendersi la responsabilità per il proprio compito nella vita)._
+              La considerazione e il trattamento olistico dell’organismo con tecniche delicate e vaste per prendere influenza sui tendini, sulle fasce, sul sistema nervoso e il sistema linfatico hanno soddisfatto sia il mio desiderio di avere spiegazioni razionali e, allo stesso tempo, il mio bisogno di un approccio intuitivo. Alle Hawaii, Jeana mi ha aperto un nuovo mondo."
   Vision: "La mia visione"
   VisionText: "Mi auguro che il mondo diventi più colorato.  Sia all’ esterno, che dentro di noi."
 

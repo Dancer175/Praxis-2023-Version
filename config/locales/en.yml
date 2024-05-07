@@ -5,10 +5,9 @@ en:
   #landing page
 
   title: "Practice for being HUMAN"
-  address: "Daniela Zimmermann, Medical Massage Therapist, Obergässli 11, 2502 Biel/Bienne, 079 473 33 50"
-  enter: "Enter"
-  route: "Route"
-  tel: "Call"
+  address: "Medical Massage Therapist_
+           Obergässli 11_
+           2502 Biel/Bienne"
   therapies: "Therapies"
   prices: "Prices"
   contact: "Contact"
@@ -24,19 +23,12 @@ en:
 
   # therapies
 
-  therapies: "Therapies"
-  medmassage: "Medical Massage"
-  hawaiimassage: "Hawaiian Massage"
-  classic: "Classic Massage"
   mld: "Manual Lymphatic Drainage"
-  bgm: "Connective Tissue Massage"
-  reflex: "Foot Reflexology"
-  hawaiifullbody: "Hawaiian Full-Body Massage"
-  pregnant: "Hawaiian Pregnancy Massage"
+  pregnant: "Pregnancy Massage"
   more: "Other forms of Therapy"
   kinesio: "Kinesiotaping as taught by Dr. Kenzo Kase"
   thai: "Thai Yoga Massage"
-  mytreatment: "My Treatment Approach"
+  mytherapytitle: "Medical Massage and Hawaiian Bodywork"
   mytherapydescription: "Medical massage specifically relieves tension, boosts circulation, stimulates the metabolism and has a calming effect on the organism._
                         Hawaiian Bodywork is a healing art that is thousands of years old and has been passed down through the generations from master to student. It is a combination of effective techniques to release tension in the body, and loving intention to bring body, soul and spirit back into harmony._
                         Both forms of therapy have given me valuable tools along the way. In my treatments, I combine the two concepts to apply the most effective techniques for each client's individual complaint."
@@ -45,7 +37,7 @@ en:
 
   price-title: "One hour treatment: 100 CHF"
   price-content: "Payment is made directly after the treatment in return for a health insurance receipt._
-                  I accept payment in the form of cash, EC card, Twint and Bitcoin._
+                  I accept payment in the form of cash, Twint and Bitcoin._
                   I am EMR, ASCA, Visana and SNE recognized._
                   Before your first treatment, please find out which services are covered under which conditions by your health insurance's supplementary insurance and to what extent."
 
@@ -67,12 +59,15 @@ en:
               Pilgrimage on foot on the Via Francigena to Rome_
               Opening of my practice in Biel/Bienne"
   myteachers: "My teachers"
-  Claudia: "Claudia Haus"
-  ClaudiaText: "Under the instruction of Claudia I was allowed to help in her natural healing practice and among other things perform foot reflexology massages. She gave me an incredible opportunity and allowed me to discover the joy of therapy. In the drugstore I got an insight into the world of natural remedies and could benefit from Claudia's extensive knowledge. In addition, she let me tinker for hours on new window display ideas for the drugstore. With scissors, glue and colored pencils. Our decorations were unique and very human, which inspired me."
-  Juerg: "Jürg Schneeberger"
-  JuergText: "As a boss and mentor, Jürg gave me the freedom to grow as a therapist. He taught me the down-to-earthness of the people of Emmental, a sense of separating the important from the unimportant, the work ethic of living what you preach, calmness and confidence in life. He also made me really aware of the importance of networked thinking as well as the inclusion of body statics when looking at a complaint. Jürg is an important role model for me as a therapist and as a person."
-  Jeana: "Jeana Naluai"
-  JeanaText: "Jeana has taught me interesting new therapeutic concepts by combining her experience as a physiotherapist with the knowledge of traditional Hawaiian healing and spirituality that has been passed on to her. Among others, the concept of Aloha (love, loving intention), Mana (power, energy), Pono (living and acting according to one's own moral principles), Ho'oponopono (bringing life circumstances and one's own moral principles back into harmony, forgiveness, clearing), Kuleana (taking responsibility for one's own life task). The holistic approach and treatment of an organism with gentle techniques for large-scale action on muscle tendon insertions, fascia, the nervous system and the lymphatic system met my need for rational explanations as well as my need for an intuitive approach. Jeana opened up a new world for me in Hawaii."
+  ClaudiaText: "Under the instruction of Claudia I was allowed to help in her natural healing practice and among other things perform foot reflexology massages. She gave me an incredible opportunity and allowed me to discover the joy of therapy._
+                In the drugstore I got an insight into the world of natural remedies and could benefit from Claudia's extensive knowledge._
+                In addition, she let me tinker for hours on new window display ideas for the drugstore. With scissors, glue and colored pencils. Our decorations were unique and very human, which inspired me."
+  JuergText: "As a boss and mentor, Jürg gave me the freedom to grow as a therapist._
+              He taught me the down-to-earthness of the people of Emmental, a sense of separating the important from the unimportant, the work ethic of living what you preach, calmness and confidence in life._
+              He also made me really aware of the importance of networked thinking as well as the inclusion of body statics when looking at a complaint. Jürg is an important role model for me as a therapist and as a person."
+  JeanaText: "Jeana has taught me interesting new therapeutic concepts by combining her experience as a physiotherapist with the knowledge of traditional Hawaiian healing and spirituality that has been passed on to her._
+              Among others, the concept of Aloha (love, loving intention), Mana (power, energy), Pono (living and acting according to one's own moral principles), Ho'oponopono (bringing life circumstances and one's own moral principles back into harmony, forgiveness, clearing), Kuleana (taking responsibility for one's own life task)._
+              The holistic approach and treatment of an organism with gentle techniques for large-scale action on muscle tendon insertions, fascia, the nervous system and the lymphatic system met my need for rational explanations as well as my need for an intuitive approach. Jeana opened up a new world for me in Hawaii."
   Vision: "My Vision"
   VisionText: "I wish for the world to become more colorful again. On the outside as well as in our hearts."
 

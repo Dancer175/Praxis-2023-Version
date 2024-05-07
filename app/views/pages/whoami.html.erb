@@ -1,76 +1,52 @@
 <div class="page-text">
-  <h2>Mein Lebensweg</h2>
+  <h2><%= t('myway') %></h2>
   <br>
   <ul style="list-style: circle filled; text-align: left;">
-    <li>  Geboren und aufgewachsen in Meggen (LU)</li>
-    <li>  Gymnasium mit Maturitätsabschluss in Luzern</li>
-    <li>  Lern- und Wanderjahre, diverse Praktikas, Sprachaufenthalte</li>
-    <li>  Praktikum Drogerie und Naturheilpraxis von Claudia Haus in Mellingen (AG)</li>
-    <li>  ZefaM Zentralschweizer Fachschule für Medizinische Masseure</li>
-    <li>  Arbeit als Med. Masseurin bei Jürg Schneeberger in Langnau i. E</li>
-    <li>  Ausbildung Hawaiianische Massage bei Jeana Naluai in Maui (HI)</li>
-    <li>  Pilgerreise zu Fuss auf der Via Francigena nach Rom</li>
-    <li>  Eröffnung meiner Praxis in Biel/Bienne</li>
+       <% t('curriculum').split('_ ').each do |line| %>
+        <li><%= line %></li>
+        <% end %>
   </ul>
   <br>
   <br>
-  <h2>Meine Lehrmeister</h2>
+  <h2><%= t('myteachers') %></h2>
   <br>
   <br>
   <h3>Claudia Haus</h3>
   <br>
-  <p>Unter der Instruktion von Claudia durfte ich in ihrer Naturheilpraxis mithelfen
-    und unter anderem Fussreflexzonen Massagen durchführen. Sie hat mir eine unglaubliche
-    Chance geboten und mir ermöglicht, die Freude am Therapieren zu entdecken.
+  <p><%= t('ClaudiaText').split('_ ').first %>
     <br>
     <br>
-    In der Drogerie erhielt ich einen Einblick in die Welt der Naturheilmittel und konnte
-    von Claudias umfangreichen Wissen profitieren.
+    <%= t('ClaudiaText').split('_ ').second %>
     <br>
     <br>
-    Dazu liess sie mich stundenlang an immer
-    neuen Schaufensterideen für die Drogerie basteln. Mit Scheere, Leim und Farbstiften.
-    Unsere Dekorationen waren einzigartig und sehr menschlich, was mich inspiriert hat.</p>
+    <%= t('ClaudiaText').split('_ ').third %></p>
   <br>
   <br>
   <h3>Jürg Schneeberger</h3>
   <br>
-  <p>Jürg hat mir als Chef und Mentor den Freiraum gelassen, mich als Therapeutin zu entwickeln.
+  <p><%= t('JuergText').split('_ ').first %>
     <br>
     <br>
-    Er vermittelte mir die Bodenständigkeit der Emmentaler, einen Sinn dafür,
-    das Wichtige vom Unwichtigen zu trennen, die Arbeitsmoral, das zu leben was man predigt,
-    Gemütlichkeit, Ruhe und das Vertrauen ins Leben.
+    <%= t('JuergText').split('_ ').second %>
     <br>
     <br>
-    Er hat mir zudem die Wichtigkeit von vernetztem Denken richtig bewusstgemacht
-    sowie den Einbezug der Körperstatik in der Betrachtung einer Beschwerde nahegebracht.
-    Jürg ist mir als Therapeut und als Mensch ein wichtiges Vorbild.</p>
+    <%= t('JuergText').split('_ ').third %></p>
   <br>
   <br>
   <h3>Jeana Naluai</h3>
   <br>
-  <p>Jeana hat mir durch die Kombinierung ihrer Erfahrung als Physiotherapeutin und des
-    ihr übertragenen Wissens der traditionell Hawaiianischen Heilkunst und Spiritualität
-    interessante neue Therapiekonzepte vermittelt.
+  <p><%= t('JeanaText').split('_ ').first %>
     <br>
     <br>
-    Unter anderem das Konzept von Aloha
-    (Liebe, liebevolle Absicht), Mana (Kraft, Energie), Pono
-    (Leben und Handeln nach den eigenen moralischen Prinzipien), Ho’oponopono
-    (Wieder in Einklang bringen von Lebensumständen und den eigenen moralischen Prinzipien, Vergebung, Bereinigung),
-    Kuleana (Übernahme der Verantwortung für die eigene Lebensaufgabe).
+    <%= t('JeanaText').split('_ ').second %>
     <br>
     <br>
-    Die ganzheitliche Betrachtung und Behandlung eines Organismus mit schonenden Techniken
-    zur grossflächigen Einwirkung auf Muskelsehnenansätze, Faszien, das Nervensystem und das
-    Lymphsystem wurden meinem Verlangen nach rationalen Erklärungen sowie meinem Bedürfnis
-    nach einer intuitiven Herangehensweise gerecht. Jeana hat mir in Hawaii eine neue Welt eröffnet.</p>
+    <%= t('JeanaText').split('_ ').third %></p>
   <br>
   <br>
-  <h2 style="text-align: left;">Meine Vision</h2>
+  <h2 style="text-align: left;"><%= t('Vision')%></h2>
   <br>
-  <p style="text-align: left;">Ich wünsche mir, dass die Welt wieder farbiger wird. Im Aussen sowie in unseren Herzen.</p>
+  <p style="text-align: left;"><%= t('VisionText')%></p>
 
 
 </div>
