@@ -4,6 +4,9 @@ it:
 
   # landing page
 
+  show-text: "Testo"
+  show-image: "Foto"
+
   title: "Studio per essere UMANO"
   address: "Massaggiatrice Medicale APF_
            Ruelle du Haut 11_

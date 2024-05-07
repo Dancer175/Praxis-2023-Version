@@ -1,19 +1,31 @@
 #visibility-switch {
   position: absolute;
-  top: 126px;
-  right: 1vw;
-  width: 50px;
-  height: 50px;
+  top: 80px;
+  right: 28px;
+  width: 54px;
+  height: 54px;
   border-radius: 50% 50% 50% 50%;
   background-color: $blue;
   display: none;
   z-index: 5;
-  border: 2px solid #DCE132;
-  background-image: asset-url('invisible-green.png');
+  border: 3px solid #DCE132;
+  padding-top: 2px;
   background-size: contain;
   background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: #DCE132;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
+    font-size: 26px;
+  }
+  #show-text {
+    display: none;
+  }
   &:hover {
     cursor: pointer;
   }

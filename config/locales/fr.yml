@@ -4,6 +4,9 @@ fr:
 
   # landing page
 
+  show-text: "Texte"
+  show-image: "Image"
+
   title: "Cabinet pour être HUMAIN"
   address: "Masseuse Medicale BF_
            Ruelle du Haut 11_
@@ -60,7 +63,7 @@ fr:
   myteachers: "Mes Maîtres"
   ClaudiaText: "Sous l’instruction de Claudia, je pouvais aider dans son cabinet de naturopathie et entre autres faire des massages des zones réflexes du pied. Elle m’a offert une chance immense et m’a permis de découvrir ma passion pour le monde de la thérapie._
                 Dans la droguerie j’ai reçu une vue sur le monde des remèdes naturels et je pouvais profiter de la connaissance détaillée de Claudia._
-                En plus elle m’a donné beaucoup de temps pour bricoler des créations toujours nouvelles pour la fenêtre de notre droguerie : avec des ciseaux, de la colle et du crayon. Nos décorations étaient uniques et toujours très humaines. C’a m’a beaucoup inspiré."
+                En plus elle m’a donné beaucoup de temps pour bricoler des créations toujours nouvelles pour la fenêtre de notre droguerie: avec des ciseaux, de la colle et du crayon. Nos décorations étaient uniques et toujours très humaines. C’a m’a beaucoup inspiré."
   JuergText: "Jürg, en tant que chef et mentor m’a laissé la liberté de me développer comme thérapeute._
               Il m’a transmis la capacité des gens de l’Emmental de garder les pieds sur terre, un sens de distinguer les choses importantes des choses moins importantes, le moral de pratiquer ce qu’on prêche, la tranquillité, la sérénité et la confiance en la vie._
               En plus il m’a fait prendre conscience de l’importance d’avoir un esprit de synthèse et d’inclure la statique du corps dans l’inspection d’une problématique. Pour moi, Jürg est un exemple important, comme thérapeute et comme être humain."
