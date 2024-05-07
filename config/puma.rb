@@ -10,7 +10,7 @@ worker_timeout 3600 if ENV.fetch('RAILS_ENV', 'development') == 'development'
 # default
 # port ENV.fetch('PORT', 3000)
 # changed it to:
-bind "tcp://0.0.0.0:#{ENV['PORT'] || 3000}"
+bind "tcp://0.0.0.0:#{ENV['PORT'] || 1025}"
 
 # Specifies the `environment` that Puma will run in.
 environment ENV.fetch('RAILS_ENV') { 'development' }
