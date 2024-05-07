@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Praxis fürs MENSCH sein</title>
+    <title><%= t('title') %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title><%= t('title') %></title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Daniela Zimmermann">
+    <meta name="publisher" content="Daniela Zimmermann">
+    <meta name="copyright" content="Daniela Zimmermann">
+    <meta name="description" content="<%= t('metadescription') %>">
+    <meta name="keywords" content="<%= t('metakeywords') %>">
+    <meta name="page-topic" content="<%= t('medmassage') %>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="alternate" hreflang="de" href="/">
+    <link rel="alternate" hreflang="fr" href="/fr">
+    <link rel="alternate" hreflang="it" href="/it">
+    <link rel="alternate" hreflang="en" href="/en">
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -28,3 +43,4 @@
 
   </body>
 </html>
+

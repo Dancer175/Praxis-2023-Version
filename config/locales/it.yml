@@ -1,5 +1,5 @@
 it:
-  metadescription: "Studio di massaggio medico, Ruelle du Haut 11, 2502 Biel/Bienne, Daniela Zimmermann, massaggiatrice medicale APF, massaggi medici, lavoro corporeo hawaiano, appuntamenti via telefono / SMS / Whats App, +41 79 473 33 50"
+  metadescription: "Studio di massaggio medico, Ruelle du Haut 11, 2502 Biel/Bienne, Daniela Zimmermann, massaggiatrice medicale APF, massaggi medicali, lavoro corporeo hawaiano, appuntamenti via telefono / SMS / Whats App, +41 79 473 33 50"
   metakeywords: "medico, massaggio, hawaiano, lomi, lomi, terapia, bodywork, kinesio, taping, emr, asca, visana, sne, approvato "
 
   # landing page
@@ -7,6 +7,7 @@ it:
   show-text: "Testo"
   show-image: "Foto"
 
+  medmassage : "Massaggio medicale"
   title: "Studio per essere UMANO"
   address: "Massaggiatrice Medicale APF_
            Ruelle du Haut 11_
