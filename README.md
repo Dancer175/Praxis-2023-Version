@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* gem list and gem update made me install rails version 6.1.7.7
