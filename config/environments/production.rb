@@ -8,7 +8,7 @@ Rails.application.configure do
   config.hosts << 'xn--praxisfrsmenschsein-cbc.ch'
   config.hosts << 'www.xn--praxisfrsmenschsein-cbc.ch'
   # Code is not reloaded between requests.
-  config.cache_classes = false
+  config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
