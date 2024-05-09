@@ -154,7 +154,7 @@
 
 #map {
   position: absolute;
-  top: -10vw;
+  top: -5vw;
   left: -5vw;
 
 }
@@ -192,7 +192,6 @@
 
 #fourth-link {
   background-color: #364934;
-  min-width: 120px;
 }
 
 #whoami-wrapper {
@@ -213,6 +212,16 @@
 
 #projects-wrapper {
   background-color: rgba(13, 35, 53, 0.7);
+}
+
+@media only screen and (max-width: 1700px) {
+#main-menu {
+  font-size: 44px;
+}
+
+#nav-title {
+  font-size: 52px;
+}
 }
 
 @media only screen and (max-width: 1600px) {
@@ -322,7 +331,7 @@
 .nav-folders-wrapper {
   width: 80vw;
   position: absolute;
-  top: 140px;
+  top: 144px;
   left: 10vw;
   transform: rotate(0deg);
   overflow-x: hidden;
@@ -354,12 +363,32 @@
   }
 
   .nav-folders-wrapper {
-    height: 68vh;
+    height: 64vh;
   }
 
   #main-menu {
     a {
-      font-size: 60px;
+      font-size: 6vh;
+      padding: 1.5vh;
+    }
+
+    #first-link {
+      top: 16vh;
+    }
+    #second-link {
+      top: 27vh;
+    }
+    #third-link {
+      top: 38vh;
+    }
+    #fourth-link {
+      top: 49vh;
+    }
+    #fifth-link {
+      top: 60vh;
+    }
+    #sixth-link {
+      top: 71vh;
     }
   }
 
@@ -381,12 +410,32 @@
     #main-menu {
     a {
       font-size: 6vh;
+      padding: 1vh;
     }
   }
 
   .nav-folders-wrapper {
-    height: 58vh;
+    height: 68vh;
   }
+
+    #first-link {
+      top: 26vh;
+    }
+    #second-link {
+      top: 36vh;
+    }
+    #third-link {
+      top: 46vh;
+    }
+    #fourth-link {
+      top: 56vh;
+    }
+    #fifth-link {
+      top: 66vh;
+    }
+    #sixth-link {
+      top: 76vh;
+    }
 }
 
 #home-wrapper {
@@ -445,13 +494,11 @@
       box-shadow: none;
       font-weight: bold;
       justify-content: flex-end;
-      padding: 16px;
     }
 
     #first-link {
       position: absolute;
       right: -100vw;
-      top: 24vh;
       transition-duration: 0.4s;
       transition-delay: 0.5s;
       border-bottom-left-radius: 0px;
@@ -459,35 +506,30 @@
     #second-link {
       position: absolute;
       right: -100vw;
-      top: 36vh;
       transition-duration: 0.4s;
       transition-delay: 0.6s;
     }
     #third-link {
       position: absolute;
       right: -100vw;
-      top: 48vh;
       transition-duration: 0.4s;
       transition-delay: 0.7s;
     }
     #fourth-link {
       position: absolute;
       right: -100vw;
-      top: 60vh;
       transition-duration: 0.4s;
       transition-delay: 0.8s;
     }
     #fifth-link {
       position: absolute;
       right: -100vw;
-      top: 72vh;
       transition-duration: 0.4s;
       transition-delay: 0.9s;
     }
     #sixth-link {
       position: absolute;
       right: -100vw;
-      top: 84vh;
       transition-duration: 0.4s;
       transition-delay: 1s;
     }
@@ -521,12 +563,13 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 700px) {
 
   @media (max-aspect-ratio: 1/1) {
   #main-menu {
     a {
-      font-size: 48px;
+      //font-size: 0.5vh;
+      //padding: 1vh;
     }
   }
 }
@@ -542,9 +585,9 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   #nav-title {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   #main-menu {
@@ -556,13 +599,13 @@
   @media (max-aspect-ratio: 1/1) {
   #main-menu {
     a {
-      font-size: 42px;
+      //font-size: 32px;
     }
   }
 }
 
   #nav-title {
-    font-size: 32px;
+    font-size: 28px;
   }
   #toggle:checked + #main-menu {
     #main-menu-box {
@@ -575,7 +618,7 @@
   @media (max-aspect-ratio: 1/1) {
   #main-menu {
     a {
-      font-size: 36px;
+      //font-size: 36px;
     }
   }
 }
