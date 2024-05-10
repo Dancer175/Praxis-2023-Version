@@ -160,16 +160,25 @@ body {
 
 @media (max-aspect-ratio: 1/1) and (max-width: 1220px) {
   .page-text {
-    height: auto;
     width: 80vw;
-    max-height: 64vh;  }
+    height: 64vh;
+  }
 }
 
 @media (min-aspect-ratio: 1/1) and (max-width: 1220px) {
+  @media only screen and (min-height: 900px) {
   .page-text {
-    height: auto;
     width: 80vw;
-    max-height: 68vh;  }
+    height: 64vh;
+  }
+  }
+
+  @media only screen and (max-height: 899px) {
+  .page-text {
+    width: 80vw;
+    height: 56vh;
+  }
+  }
 }
 
 @media only screen and (max-width: 600px) {

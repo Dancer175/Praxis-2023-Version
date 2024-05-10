@@ -414,8 +414,16 @@
     }
   }
 
-  .nav-folders-wrapper {
-    height: 68vh;
+  @media only screen and (min-height: 900px) {
+    .nav-folders-wrapper {
+      height: 64vh;
+    }
+  }
+
+  @media only screen and (max-height: 899px) {
+    .nav-folders-wrapper {
+      height: 56vh;
+    }
   }
 
     #first-link {
