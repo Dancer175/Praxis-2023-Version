@@ -1,26 +1,36 @@
-# README
+# Praxis fürs Menschsein
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dies ist der Code zur Website **praxisfuersmenschsein.ch**, der Online-Präsenz der Praxis „Praxis fürs MENSCH sein“.
 
-Things you may want to cover:
+Die Website vermittelt die Haltung, Angebote und Philosophie der Praxis und steht im Zeichen von ganzheitlicher Begleitung, menschlicher Verbundenheit und Präsenz. Sie ist in mehreren Sprachen verfügbar und richtet sich an Menschen, die sich für Körperarbeit, Achtsamkeit und persönliche Entwicklung interessieren.
 
-* Ruby version
+## Inhalt & Ausrichtung
 
-* System dependencies
+Die Praxis bietet medizinische Massagen und verschiedene Körpertherapien an und legt einen starken Fokus auf das „Mensch sein“ im Sinne von Bewusstsein, Verbindung und persönlichem Wachstum. Die Website enthält Informationen zu Therapien, Preisen, Kontaktmöglichkeiten sowie Reflexionen zur körperlichen und menschlichen Erfahrung.
 
-* Configuration
+## Umsetzung
 
-* Database creation
+Diese Website wurde von mir selbst entwickelt, inklusive:
 
-* Database initialization
+- Strukturierung der Inhalte  
+- Gestaltung der Benutzerführung  
+- Technischer Umsetzung (Ruby on Rails, HTML, CSS)  
 
-* How to run the test suite
+Die Zielsetzung war eine ruhige, klare und einladende Darstellung, die der inhaltlichen Botschaft des Projekts entspricht.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Technologien
 
-* Deployment instructions
+- Ruby on Rails  
+- HTML / ERB  
+- CSS / SCSS  
+- JavaScript (Grundlagen)  
+- Kartenintegration (Mapbox)  
 
-* ...
+## Live-Version
 
-* gem list and gem update made me install rails version 6.1.7.7
+https://praxisfuersmenschsein.ch
+
+---
+
+*Dieses Projekt dient als Referenz für meine Arbeitsweise und mein technisches Verständnis im Web-Development.*
+
